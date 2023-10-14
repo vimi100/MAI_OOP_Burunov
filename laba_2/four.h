@@ -14,8 +14,8 @@ public:
     Four(const Four& other);
     Four(Four&& other) noexcept;
 
-    Four four_to_el (size_t num);
-    size_t el_to_four() noexcept;
+    // size_t four_to_dec (size_t num);
+    // size_t dec_to_four() noexcept;
 
     bool bigger(const Four &other) const;
     bool smaller(const Four &other) const;

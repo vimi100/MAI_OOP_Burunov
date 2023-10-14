@@ -55,7 +55,7 @@ int main () {
     cout << endl;
 
     cout << "2) Smaller than:" << endl;
-    Four l_2("AAa819"), r_2("AAaaA99");
+    Four l_2("22310"), r_2("22312");
     cout << "left:";
     l_2.print(cout);
     cout << endl;
@@ -76,7 +76,7 @@ int main () {
     cout << endl;
 
     cout << "3) Equal:" << endl;
-    Four l_3("57291"), r_3("57291");
+    Four l_3("331"), r_3("331");
     cout << "left:";
     l_3.print(cout);
     cout << endl;
@@ -101,7 +101,7 @@ int main () {
     cout << endl;
 
     cout << "1) Addition:" << endl;
-    Four l_4("A841A"), r_4("A7193");
+    Four l_4("33"), r_4("11");
     cout << "left:";
     l_4.print(cout);
     cout << endl;
@@ -119,7 +119,7 @@ int main () {
     cout << endl;
 
     cout << "2) Subtraction:" << endl;
-    Four l_5("A8492"), r_5("88979");
+    Four l_5("11"), r_5("11");
     cout << "left:";
     l_5.print(cout);
     cout << endl;
