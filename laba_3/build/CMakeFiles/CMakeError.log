@@ -1,0 +1,125 @@
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /home/kali/Desktop/3_laba_OOP/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_33c9a/fast && /usr/bin/gmake -f CMakeFiles/cmTC_33c9a.dir/build.make CMakeFiles/cmTC_33c9a.dir/build
+gmake[1]: Entering directory '/home/kali/Desktop/3_laba_OOP/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_33c9a.dir/CMakeCCompilerABI.c.o
+/usr/bin/i686-w64-mingw32-gcc   -v -o CMakeFiles/cmTC_33c9a.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.15/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/i686-w64-mingw32-gcc
+Target: i686-w64-mingw32
+Configured with: ../../src/configure --build=x86_64-linux-gnu --prefix=/usr --includedir='/usr/include' --mandir='/usr/share/man' --infodir='/usr/share/info' --sysconfdir=/etc --localstatedir=/var --disable-option-checking --disable-silent-rules --libdir='/usr/lib/x86_64-linux-gnu' --libexecdir='/usr/lib/x86_64-linux-gnu' --disable-maintainer-mode --disable-dependency-tracking --prefix=/usr --enable-shared --enable-static --disable-multilib --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --libdir=/usr/lib --enable-libstdcxx-time=yes --with-tune=generic --with-headers --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libgomp --enable-languages=c,c++,fortran,objc,obj-c++,ada --enable-lto --enable-threads=win32 --program-suffix=-win32 --program-prefix=i686-w64-mingw32- --target=i686-w64-mingw32 --with-as=/usr/bin/i686-w64-mingw32-as --with-ld=/usr/bin/i686-w64-mingw32-ld --enable-libatomic --enable-libstdcxx-filesystem-ts=yes --enable-dependency-tracking SED=/bin/sed --disable-sjlj-exceptions --with-dwarf2
+Thread model: win32
+Supported LTO compression algorithms: zlib
+gcc version 10-win32 20220324 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_33c9a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=pentiumpro'
+ /usr/lib/gcc/i686-w64-mingw32/10-win32/cc1 -quiet -v -U_REENTRANT /usr/local/share/cmake-3.15/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=pentiumpro -auxbase-strip CMakeFiles/cmTC_33c9a.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccYoBzUy.s
+GNU C17 (GCC) version 10-win32 20220324 (i686-w64-mingw32)
+	compiled by GNU C version 10.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.25-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/lib/gcc/i686-w64-mingw32/10-win32/../../../../i686-w64-mingw32/sys-include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/i686-w64-mingw32/10-win32/include
+ /usr/lib/gcc/i686-w64-mingw32/10-win32/include-fixed
+ /usr/lib/gcc/i686-w64-mingw32/10-win32/../../../../i686-w64-mingw32/include
+End of search list.
+GNU C17 (GCC) version 10-win32 20220324 (i686-w64-mingw32)
+	compiled by GNU C version 10.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.25-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 6c065ba8c712c21cb8d1a4a26243e5db
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_33c9a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=pentiumpro'
+ /usr/bin/i686-w64-mingw32-as -v -o CMakeFiles/cmTC_33c9a.dir/CMakeCCompilerABI.c.o /tmp/ccYoBzUy.s
+GNU assembler version 2.37 (i686-w64-mingw32) using BFD version (GNU Binutils) 2.37
+COMPILER_PATH=/usr/lib/gcc/i686-w64-mingw32/10-win32/:/usr/lib/gcc/i686-w64-mingw32/10-win32/:/usr/lib/gcc/i686-w64-mingw32/:/usr/lib/gcc/i686-w64-mingw32/10-win32/:/usr/lib/gcc/i686-w64-mingw32/:/usr/lib/gcc/i686-w64-mingw32/10-win32/../../../../i686-w64-mingw32/bin/
+LIBRARY_PATH=/usr/lib/gcc/i686-w64-mingw32/10-win32/:/usr/lib/gcc/i686-w64-mingw32/10-win32/../../../../i686-w64-mingw32/lib/../lib/:/usr/lib/gcc/i686-w64-mingw32/10-win32/../../../../i686-w64-mingw32/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_33c9a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=pentiumpro'
+Linking C executable cmTC_33c9a
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_33c9a.dir/link.txt --verbose=1
+/usr/bin/i686-w64-mingw32-gcc     -v CMakeFiles/cmTC_33c9a.dir/CMakeCCompilerABI.c.o  -o cmTC_33c9a 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/i686-w64-mingw32-gcc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/i686-w64-mingw32/10-win32/lto-wrapper
+Target: i686-w64-mingw32
+Configured with: ../../src/configure --build=x86_64-linux-gnu --prefix=/usr --includedir='/usr/include' --mandir='/usr/share/man' --infodir='/usr/share/info' --sysconfdir=/etc --localstatedir=/var --disable-option-checking --disable-silent-rules --libdir='/usr/lib/x86_64-linux-gnu' --libexecdir='/usr/lib/x86_64-linux-gnu' --disable-maintainer-mode --disable-dependency-tracking --prefix=/usr --enable-shared --enable-static --disable-multilib --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --libdir=/usr/lib --enable-libstdcxx-time=yes --with-tune=generic --with-headers --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libgomp --enable-languages=c,c++,fortran,objc,obj-c++,ada --enable-lto --enable-threads=win32 --program-suffix=-win32 --program-prefix=i686-w64-mingw32- --target=i686-w64-mingw32 --with-as=/usr/bin/i686-w64-mingw32-as --with-ld=/usr/bin/i686-w64-mingw32-ld --enable-libatomic --enable-libstdcxx-filesystem-ts=yes --enable-dependency-tracking SED=/bin/sed --disable-sjlj-exceptions --with-dwarf2
+Thread model: win32
+Supported LTO compression algorithms: zlib
+gcc version 10-win32 20220324 (GCC) 
+COMPILER_PATH=/usr/lib/gcc/i686-w64-mingw32/10-win32/:/usr/lib/gcc/i686-w64-mingw32/10-win32/:/usr/lib/gcc/i686-w64-mingw32/:/usr/lib/gcc/i686-w64-mingw32/10-win32/:/usr/lib/gcc/i686-w64-mingw32/:/usr/lib/gcc/i686-w64-mingw32/10-win32/../../../../i686-w64-mingw32/bin/
+LIBRARY_PATH=/usr/lib/gcc/i686-w64-mingw32/10-win32/:/usr/lib/gcc/i686-w64-mingw32/10-win32/../../../../i686-w64-mingw32/lib/../lib/:/usr/lib/gcc/i686-w64-mingw32/10-win32/../../../../i686-w64-mingw32/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_33c9a.exe' '-mtune=generic' '-march=pentiumpro'
+ /usr/lib/gcc/i686-w64-mingw32/10-win32/collect2 -plugin /usr/lib/gcc/i686-w64-mingw32/10-win32/liblto_plugin.so -plugin-opt=/usr/lib/gcc/i686-w64-mingw32/10-win32/lto-wrapper -plugin-opt=-fresolution=/tmp/ccczZqMS.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -m i386pe -Bdynamic -o cmTC_33c9a.exe /usr/lib/gcc/i686-w64-mingw32/10-win32/../../../../i686-w64-mingw32/lib/../lib/crt2.o /usr/lib/gcc/i686-w64-mingw32/10-win32/crtbegin.o -L/usr/lib/gcc/i686-w64-mingw32/10-win32 -L/usr/lib/gcc/i686-w64-mingw32/10-win32/../../../../i686-w64-mingw32/lib/../lib -L/usr/lib/gcc/i686-w64-mingw32/10-win32/../../../../i686-w64-mingw32/lib CMakeFiles/cmTC_33c9a.dir/CMakeCCompilerABI.c.o -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt /usr/lib/gcc/i686-w64-mingw32/10-win32/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_33c9a.exe' '-mtune=generic' '-march=pentiumpro'
+gmake[1]: Leaving directory '/home/kali/Desktop/3_laba_OOP/build/CMakeFiles/CMakeTmp'
+
+
+Cannot copy output executable
+  ''
+to destination specified by COPY_FILE:
+  '/home/kali/Desktop/3_laba_OOP/build/CMakeFiles/3.15.2/CMakeDetermineCompilerABI_C.bin'
+Unable to find the executable at any of:
+  /home/kali/Desktop/3_laba_OOP/build/CMakeFiles/CMakeTmp/cmTC_33c9a
+  /home/kali/Desktop/3_laba_OOP/build/CMakeFiles/CMakeTmp/Debug/cmTC_33c9a
+  /home/kali/Desktop/3_laba_OOP/build/CMakeFiles/CMakeTmp/Development/cmTC_33c9a
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/kali/Desktop/3_laba_OOP/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_23b47/fast && /usr/bin/gmake -f CMakeFiles/cmTC_23b47.dir/build.make CMakeFiles/cmTC_23b47.dir/build
+gmake[1]: вход в каталог «/home/kali/Desktop/3_laba_OOP/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_23b47.dir/src.c.o
+/usr/bin/i686-w64-mingw32-gcc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_23b47.dir/src.c.o   -c /home/kali/Desktop/3_laba_OOP/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_23b47
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23b47.dir/link.txt --verbose=1
+/usr/bin/i686-w64-mingw32-gcc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_23b47.dir/src.c.o  -o cmTC_23b47 
+/usr/bin/i686-w64-mingw32-ld: CMakeFiles/cmTC_23b47.dir/src.c.o:src.c:(.text+0x36): неопределённая ссылка на «pthread_create»
+/usr/bin/i686-w64-mingw32-ld: CMakeFiles/cmTC_23b47.dir/src.c.o:src.c:(.text+0x42): неопределённая ссылка на «pthread_detach»
+/usr/bin/i686-w64-mingw32-ld: CMakeFiles/cmTC_23b47.dir/src.c.o:src.c:(.text+0x56): неопределённая ссылка на «pthread_join»
+/usr/bin/i686-w64-mingw32-ld: CMakeFiles/cmTC_23b47.dir/src.c.o:src.c:(.text+0x62): неопределённая ссылка на «pthread_exit»
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_23b47.dir/build.make:87: cmTC_23b47] Ошибка 1
+gmake[1]: выход из каталога «/home/kali/Desktop/3_laba_OOP/build/CMakeFiles/CMakeTmp»
+gmake: *** [Makefile:121: cmTC_23b47/fast] Ошибка 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/kali/Desktop/3_laba_OOP/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_f097c/fast && /usr/bin/gmake -f CMakeFiles/cmTC_f097c.dir/build.make CMakeFiles/cmTC_f097c.dir/build
+gmake[1]: вход в каталог «/home/kali/Desktop/3_laba_OOP/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_f097c.dir/CheckFunctionExists.c.o
+/usr/bin/i686-w64-mingw32-gcc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_f097c.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.15/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f097c
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f097c.dir/link.txt --verbose=1
+/usr/bin/i686-w64-mingw32-gcc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_f097c.dir/CheckFunctionExists.c.o  -o cmTC_f097c -lpthreads 
+/usr/bin/i686-w64-mingw32-ld: невозможно найти -lpthreads
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_f097c.dir/build.make:87: cmTC_f097c] Ошибка 1
+gmake[1]: выход из каталога «/home/kali/Desktop/3_laba_OOP/build/CMakeFiles/CMakeTmp»
+gmake: *** [Makefile:121: cmTC_f097c/fast] Ошибка 2
+
+
+
